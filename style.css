@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=VT323';
+body {
+    background-color: #0e0e10;
+    /*#fc1b28*/
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pokemonImg.hide {
+    filter: brightness(.015);
+}
+
+.background-circle {
+    background: radial-gradient( circle at 50% 50%, #f3f3f3, transparent 70%);
+}
+
+img:hover {
+    filter: brightness(100%);
+}
+
+.title {
+    font-family: 'Joti One', cursive;
+    color: #ffdd00;
+    text-shadow: 3px 3px 0 #39569E, -1px -1px 0 #39569E, 1px -1px 0 #39569E, -1px 4px 0 #39569E, 1px 1px 0 #39569E;
+    font-size: 55px;
+}
+
+#input {
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    border: 2px solid #A0D0E0;
+    width: 200px;
+    height: 30px;
+    box-shadow: 0px -2px 0 #39569E, -1px 0px 0 #39569E, 1px 0px 0 #39569E, 0px 4px 0 #39569E, 0px 0px 0 #39569E;
+    background: #ffdd00;
+    font-family: "VT323", monospace;
+    font-size: 30px;
+}
+
+#input::placeholder {
+    color: black;
+}
+
+#input {
+    outline-width: 0;
+}
